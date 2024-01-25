@@ -29,11 +29,22 @@ Go to `Environments` tab, select the `pyspark-tutorial` environment. When your m
 
 #### Using Anaconda prompt
 
-```
+```BASH
 conda create -n pyspark-tutorial python=3.8
+```
+```BASH
 conda activate pyspark-tutorial
+```
+```BASH
 pip install -r requirements.txt
+```
+```BASH
+conda install openjdk=8
+```
+```BASH
 set PYSPARK_PYTHON=python
+```
+```BASH
 jupyter notebook
 ```
 
