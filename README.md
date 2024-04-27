@@ -38,6 +38,9 @@ conda activate pyspark-tutorial
 ```BASH
 pip install -r requirements.txt
 ```
+```bash
+conda config --append channels conda-forge
+```
 ```BASH
 conda install openjdk=8
 ```
